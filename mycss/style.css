@@ -1,0 +1,189 @@
+/*
+font-family: 'Shrikhand', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+  display: inline;
+  float: right;
+  margin-right: 50px;
+  margin-top: 7px;
+}
+
+nav li {
+  display: inline;
+  padding-right: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4c3323;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #fffeea;
+  transition: .5s;
+  font-weight: 100;
+}
+
+#wallpaper {
+  background-image: url(../images/pastelflower.jpg);
+  width: 100%;
+  background-size: cover;
+  background-attachment: absolute;
+  height: 700px;
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.welcomeLogo {
+  background-color: #28150a;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 280px;
+  position: absolute;
+  opacity: .8;
+}
+
+.welcomeLogo h1 {
+  margin-left: 35%;
+  margin-top: 32px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.welcomeLogo a {
+  color: #fff;
+  font-weight: 100;
+}
+
+.welcomeLogo a:hover {
+  text-decoration: none;
+  font-weight: 100;
+  transition: .5s;
+}
+
+
+/* ----- section one -----*/
+
+#sectionOne {
+  height: 300px;
+
+  margin: auto;
+  background-color: #F8F9FD;
+
+}
+
+#sectionOne h1 {
+  font-size: 350px;
+  position: absolute;
+  color: #7D2F47;
+  opacity: .5;
+  margin-top: -50px;
+  margin-left: 20%;
+}
+
+#sectionOne p {
+  width: 50%;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 100px;
+  font-weight: 300;
+}
+
+/* ------ body image ------*/
+
+#bodyImage {
+  background-image: url(../images/angularbw.jpg);
+  margin: auto;
+  height: 1500px;
+  background-size: cover;
+  background-attachment: absolute;
+  clear: both;
+  padding: 0;
+  margin: 0;
+}
+
+.sectionTwo {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  background-color: #F8F9FD;
+  margin-top: -1350px;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+
+.col p {
+  margin-left: 10px;
+  margin-top: 60px;
+  font-weight: 100;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.33%; }
+.span_1_of_3 { width: 32.66%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+
+/*--- section three --- */
+
+.sectionThree {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  background-color: #0b0c0c;
+  margin-top: 75px;
+  border-radius: 5px;
+}
+
+.sectionThree h1 {
+  text-align: center;
+  color: #fffeea;
+  font-weight: 100;
+  margin-bottom: -40px;
+  padding-top: 10px;
+}
+
+.carousel-inner {
+  margin: auto;
+  margin-top: 35px;
+  width: 80%;
+}
+
+.item img {
+  max-height: 400px;
+}
